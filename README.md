@@ -1,7 +1,8 @@
 # One-week sprint project for a Junior Cloud DevOps Engineer
 
 ## Helpful links
-- [ ] [Project](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#project-deploying-a-simple-api-on-aws-using-terraform-with-gitlab-cicd)
+- [x] [Project](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#project-deploying-a-simple-api-on-aws-using-terraform-with-gitlab-cicd)
+- [x] [Understanding the project requirements and scope]()
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
@@ -45,5 +46,10 @@ Working on a mini project within a week can be a great way to dive into cloud De
 - **Use Online Resources:** Leverage AWS and Terraform documentation, tutorials, and forums. Don't hesitate to seek help from communities if you're stuck.
 - **Regular Commits:** Commit your changes frequently and write meaningful commit messages. This helps in tracking changes and debugging.
 - **Test Thoroughly:** Ensure your CI/CD pipeline includes proper testing phases. This practice enhances the reliability of your deployments.
+
+
+## Understanding the project requirements and scope
+
+Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
 Remember, this plan is flexible and might need adjustments based on your progress and familiarity with the tools. Good luck with your project!
