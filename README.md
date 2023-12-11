@@ -4,7 +4,7 @@
 - [x] [Project](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#project-deploying-a-simple-api-on-aws-using-terraform-with-gitlab-cicd)
 - [x] [Tips for a Junior DevOps Engineer](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/tree/main#tips-for-a-junior-devops-engineer)
 - [x] [Understanding the project requirements and scope](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/tree/main#understanding-the-project-requirements-and-scope)
-- [ ] 
+- [ ] [High-Level Architecture]()
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
