@@ -49,9 +49,13 @@ Working on a mini project within a week can be a great way to dive into cloud De
 - **Regular Commits:** Commit your changes frequently and write meaningful commit messages. This helps in tracking changes and debugging.
 - **Test Thoroughly:** Ensure your CI/CD pipeline includes proper testing phases. This practice enhances the reliability of your deployments.
 
+Remember, this plan is flexible and might need adjustments based on your progress and familiarity with the tools. Good luck with your project!
 
 ## Understanding the project requirements and scope
 
 Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
-Remember, this plan is flexible and might need adjustments based on your progress and familiarity with the tools. Good luck with your project!
+
+Project Goal (The main aim is to):  
+1. create a basic API (a way for different software programs to talk to each other)
+2. deploy the basicAPI on Amazon Web Services (AWS), using Terraform (a tool for setting up infrastructure) and GitLab CI/CD (Continuous Integration/Continuous Deployment - a way to automate testing and deploying code).
