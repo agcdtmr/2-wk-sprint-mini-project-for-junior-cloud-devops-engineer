@@ -42,4 +42,4 @@ Here's a simple project outline with tips and instructions:
 4. **Follow Best Practices:** Research and follow best practices for security, cost optimization, and performance.
 5. **Ask for Help:** Don’t hesitate to seek guidance from seniors or online resources when stuck.
 
-Remember, the goal is not just to complete the project but to understand the concepts and processes involved in deploying applications on the cloud using IaC. Good luck, and enjoy the learning process!
+Remember, the goal is **not just** to complete the project but to understand the concepts and processes involved in deploying applications on the cloud using IaC. Good luck, and enjoy the learning process!
