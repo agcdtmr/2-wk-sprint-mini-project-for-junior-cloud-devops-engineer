@@ -17,6 +17,7 @@ Working on a mini project within a week can be a great way to dive into cloud De
 | **Day 1**   | **Planning and Setup**                                                                         |
 |             | - Understand the project requirements and scope                                                |
 |             | - Set up an AWS account and configure necessary permissions                                    |
+|             | - Draw the High-Level Architecture using Lucidchart or Draw.io                                 |
 |             | - Install Terraform and GitLab CI/CD tools                                                      |
 |             | - Initialize a new GitLab repository for the project                                            |
 | **Day 2**   | **Infrastructure Setup with Terraform**                                                        |
