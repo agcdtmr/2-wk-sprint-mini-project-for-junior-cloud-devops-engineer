@@ -108,3 +108,54 @@ These tools and services play specific roles in the project:
 - **GitLab CI/CD:** Helps in automating tests and deploying the code.
 
 Please adjust the versions and tools based on your project requirements or any specific guidelines from your team or organization.
+
+
+## High-Level Architecture:
+
+1. **AWS Services Used:**
+   - **AWS Lambda:** Executes the API code.
+   - **AWS API Gateway:** Manages API endpoints and directs requests to Lambda.
+   - **AWS IAM:** Manages access to AWS services.
+   - **AWS VPC:** Creates a virtual network for resources.
+   
+2. **Terraform Configuration:**
+   - **Networking:** Defines VPC, subnets, and security groups.
+   - **Lambda & API Gateway:** Configures these services with necessary settings.
+   - **IAM Roles:** Sets up roles for Lambda execution and other permissions.
+
+3. **GitLab CI/CD:**
+   - **Pipeline Configuration:** Contains stages for testing and deployment.
+   - **Testing Steps:** Runs automated tests on the code.
+   - **Deployment Steps:** Pushes the code changes to AWS services using Terraform.
+
+4. **Workflow Overview:**
+   - Developer pushes code changes to GitLab repository.
+   - GitLab CI/CD pipeline triggers.
+   - Pipeline runs tests on the code.
+   - Upon successful tests, Terraform applies changes to AWS infrastructure.
+   - Updated code gets deployed to Lambda via GitLab CI/CD.
+
+### Textual Representation:
+
+```
+AWS Architecture:
+- VPC
+  - Subnets
+  - Security Groups
+
+AWS Services:
+- Lambda Function
+- API Gateway
+- IAM Roles
+
+Terraform Configuration:
+- Networking Setup (VPC, Subnets)
+- Lambda & API Gateway Configuration
+- IAM Role Definitions
+
+GitLab CI/CD Pipeline:
+- Test Stage
+- Deployment Stage
+  - Terraform Applies Changes
+  - Code Deployment to Lambda
+```
