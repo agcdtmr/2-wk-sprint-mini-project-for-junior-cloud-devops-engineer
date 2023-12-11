@@ -56,7 +56,7 @@ Remember, this plan is flexible and might need adjustments based on your progres
 Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
 
-**Project Goal (The main aim is to): **
+**Project Goal (The main aim is to):**
 1. create a basic API (a way for different software programs to talk to each other)
 2. deploy the basic API on Amazon Web Services (AWS)
 3. use Terraform for setting up infrastructure
