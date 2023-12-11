@@ -1,7 +1,7 @@
 # One-week sprint project for a Junior Cloud DevOps Engineer
 
 ## Helpful links
-- [ ] [Project Description]()
+- [ ] [Project](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#project-deploying-a-simple-api-on-aws-using-terraform-with-gitlab-cicd)
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
