@@ -64,17 +64,36 @@ Understanding the project requirements and scope means figuring out exactly **wh
 
 **Key Questions to Answer:**
 1. What does the API need to do? (e.g., handle certain types of data, perform specific tasks)
-2. Which AWS services will you use? (e.g., EC2 for hosting, maybe others for databases or storage, Deploying a basic API on AWS can be done using various services, but one common approach is to use AWS Lambda for the code execution and API Gateway to manage the API endpoints)
-3. How will you set up the infrastructure using Terraform? (e.g., networks, servers)
-4. What steps are required to automate testing and deployment using GitLab CI/CD? (e.g., writing scripts, setting up pipelines)
+   - The API needs to handle user authentication, retrieve and store data in a database, and perform CRUD operations.
+3. Which AWS services will you use? (e.g., EC2 for hosting, maybe others for databases or storage, Deploying a basic API on AWS can be done using various services, but one common approach is to use AWS Lambda for the code execution and API Gateway to manage the API endpoints)
+   - AWS Lambda for code execution, API Gateway for managing API endpoints, and Amazon RDS for database storage.
+4. How will you set up the infrastructure using Terraform? (e.g., networks, servers)
+  - Set up VPC, subnets, security groups, Lambda function configuration, API Gateway, and IAM roles using Terraform.
+5. What steps are required to automate testing and deployment using GitLab CI/CD? (e.g., writing scripts, setting up pipelines)
+  - Write test scripts for API endpoints, set up GitLab pipelines for automated testing (unit, integration) and deployment to AWS.
 
 **Scope: Define the boundaries of your project. For example:**
 1. Which parts of AWS will you use? (Avoid making it too complex at first)
+  - Utilize AWS Lambda and API Gateway
 2. What level of complexity will your API have? (Start with a simple one and maybe add features later)
+  - Begin with a simple API 
 3. What specific tasks will you perform with Terraform and GitLab CI/CD? (Setting up infrastructure, automating testing and deployment)
+- Terraform: Network and server setup; GitLab CI/CD: Automation of testing and deployment
 
 **Constraints and Resources: Consider any limitations or resources available to you:**
-1. Time: You have a week to complete this project.
+1. Time: One week to complete this project.
 2. Skills: What do you already know? What might you need to learn?
+  - Knowledge in Python to build API
+  - Learn how to use AWS Lambda and API Gateway
+  - Learn how to code AWS infrastracture using Terraform 
 3. Tools: Are there any specific versions or tools you're required to use?
 
+| Tool           | Required Version/Specification        | Purpose                                               |
+|----------------|--------------------------------------|-------------------------------------------------------|
+| AWS Account    | N/A                                  | Hosting the API on AWS                                 |
+| Terraform      | >= v0.12.0                            | Setting up infrastructure on AWS                       |
+| GitLab         | N/A                                  | Version control and CI/CD automation                    |
+| AWS CLI        | >= v2.0.0                             | Command-line access to AWS services                    |
+| Programming Language/Framework for API | Python/Flask | Creating the API                           |
+
+Please adjust the versions and tools based on your project requirements or any specific guidelines from your team or organization.
