@@ -56,6 +56,25 @@ Remember, this plan is flexible and might need adjustments based on your progres
 Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
 
-Project Goal (The main aim is to):  
+**Project Goal (The main aim is to): **
 1. create a basic API (a way for different software programs to talk to each other)
-2. deploy the basicAPI on Amazon Web Services (AWS), using Terraform (a tool for setting up infrastructure) and GitLab CI/CD (Continuous Integration/Continuous Deployment - a way to automate testing and deploying code).
+2. deploy the basic API on Amazon Web Services (AWS)
+3. use Terraform for setting up infrastructure
+4. GitLab CI/CD (Continuous Integration/Continuous Deployment - a way to automate testing and deploying code).
+
+**Key Questions to Answer:**
+1. What does the API need to do? (e.g., handle certain types of data, perform specific tasks)
+2. Which AWS services will you use? (e.g., EC2 for hosting, maybe others for databases or storage, Deploying a basic API on AWS can be done using various services, but one common approach is to use AWS Lambda for the code execution and API Gateway to manage the API endpoints)
+3. How will you set up the infrastructure using Terraform? (e.g., networks, servers)
+4. What steps are required to automate testing and deployment using GitLab CI/CD? (e.g., writing scripts, setting up pipelines)
+
+**Scope: Define the boundaries of your project. For example:**
+1. Which parts of AWS will you use? (Avoid making it too complex at first)
+2. What level of complexity will your API have? (Start with a simple one and maybe add features later)
+3. What specific tasks will you perform with Terraform and GitLab CI/CD? (Setting up infrastructure, automating testing and deployment)
+
+**Constraints and Resources: Consider any limitations or resources available to you:**
+1. Time: You have a week to complete this project.
+2. Skills: What do you already know? What might you need to learn?
+3. Tools: Are there any specific versions or tools you're required to use?
+
