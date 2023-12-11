@@ -65,7 +65,9 @@ Understanding the project requirements and scope means figuring out exactly **wh
 
 **Key Questions to Answer:**
 1. What does the API need to do? (e.g., handle certain types of data, perform specific tasks)
-   - The API needs to handle user authentication, retrieve and store data in a database, and perform CRUD operations.
+   - Use Python to make a GET request to an API using the popular requests library
+   - The API needs to handle user authentication
+   - Perform CRUD operations.
 3. Which AWS services will you use? (e.g., EC2 for hosting, maybe others for databases or storage, Deploying a basic API on AWS can be done using various services, but one common approach is to use AWS Lambda for the code execution and API Gateway to manage the API endpoints)
    - AWS Lambda for code execution, API Gateway for managing API endpoints, and Amazon RDS for database storage.
 4. How will you set up the infrastructure using Terraform? (e.g., networks, servers)
