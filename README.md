@@ -4,10 +4,9 @@
 - [ ] [Project Description]()
 
 
+### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
 Working on a mini project within a week can be a great way to dive into cloud DevOps! Here's a plan for a one-week sprint involving AWS, Terraform, and GitLab CI/CD:
-
-### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
 | **Day**     | **Tasks**                                                                                      |
 |-------------|------------------------------------------------------------------------------------------------|
