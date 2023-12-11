@@ -1,0 +1,1 @@
+# 1-wk-sprint-mini-project-for-junior-cloud-devops-engineer
