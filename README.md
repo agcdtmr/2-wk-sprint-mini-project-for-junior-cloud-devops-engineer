@@ -90,10 +90,21 @@ Understanding the project requirements and scope means figuring out exactly **wh
 
 | Tool           | Required Version/Specification        | Purpose                                               |
 |----------------|--------------------------------------|-------------------------------------------------------|
-| AWS Account    | N/A                                  | Hosting the API on AWS                                 |
+| AWS    | AWS Account                                  | Hosting the API on AWS                                 |
 | Terraform      | >= v0.12.0                            | Setting up infrastructure on AWS                       |
-| GitLab         | N/A                                  | Version control and CI/CD automation                    |
+| GitLab CI/CD         | GitLab account, GitLab Runner   | Version control and CI/CD automation                    |
 | AWS CLI        | >= v2.0.0                             | Command-line access to AWS services                    |
 | Programming Language/Framework for API | Python/Flask | Creating the API                           |
+| AWS Lambda          | -                                    | Executing the API code                            |
+| AWS API Gateway     | -                                    | Managing API endpoints                            |
+| AWS IAM             | -                                    | Managing access to AWS services                   |
+| AWS VPC             | -                                    | Creating virtual networks                         |
+| AWS EC2 (optional)  | -                                    | Alternative for hosting the API, if not using Lambda |
+
+These tools and services play specific roles in the project:
+
+- **AWS:** Your AWS account will host the API, and services like IAM, VPC, Lambda, API Gateway, and EC2 (if chosen) will be utilized.
+- **Terraform:** Used to automate the setup of AWS infrastructure for hosting the API.
+- **GitLab CI/CD:** Helps in automating tests and deploying the code.
 
 Please adjust the versions and tools based on your project requirements or any specific guidelines from your team or organization.
