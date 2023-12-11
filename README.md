@@ -1,4 +1,4 @@
-# One-week sprint project for a junior Cloud DevOps engineer
+# One-week sprint project for a Junior Cloud DevOps Engineer
 
 Here's a simple project outline with tips and instructions:
 
