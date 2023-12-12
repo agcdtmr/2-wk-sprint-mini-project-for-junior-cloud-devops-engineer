@@ -8,6 +8,8 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] [Understanding the project requirements and scope](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/tree/main#understanding-the-project-requirements-and-scope)
 - [x] [High-Level Architecture](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#high-level-architecture)
 - [ ] Draw the High-Level Architecture using Lucidchart or Draw.io
+- [x] Set up an AWS account
+- [ ] Configure necessary permissions on AWS account
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
