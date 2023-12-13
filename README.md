@@ -20,6 +20,8 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - Set User Password using the console
 - Sign in using the created IAM User
 - [x] Configure necessary permissions on AWS account
+- [x] Install Terraform
+- [ ] Set up GitLab CI/CD
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
