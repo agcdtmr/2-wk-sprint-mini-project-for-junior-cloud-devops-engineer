@@ -26,6 +26,10 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] Set up GitLab CI/CD
 - Created a template for a .gitlab-ci.yml file that defines stages, jobs, and their configurations to deploy a simple API, make a GET request using Python's requests library, and includes testing as well as build and deploy stages.
 - [x] [Connect your laptop to GitLab using SSH to use the project repo locally](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#connect-your-laptop-to-gitlab-using-ssh-youll-need-to-follow-these-general-steps)
+- [x] Setup AWS Credentials:
+- Set up AWS credentials on your local machine. You can either use the AWS CLI aws configure command or set environment variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) with your AWS credentials.
+- `aws configure list`
+- 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
@@ -61,6 +65,11 @@ Working on a mini project within a week can be a great way to dive into cloud De
 |             | - Practice your demo/presentation                                                                |
 |             | - Present your project to colleagues, mentors, or peers                                          |
 |             | - Reflect on your learnings and note areas for improvement                                       |
+
+
+### Prerequisites:
+- AWS Account: Ensure you have an AWS account and appropriate permissions.
+- GitLab Account: Have an account on GitLab.
 
 #### Tips for a Junior DevOps Engineer:
 
