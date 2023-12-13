@@ -29,7 +29,7 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] Setup AWS Credentials:
 - Set up AWS credentials on your local machine. You can either use the AWS CLI aws configure command or set environment variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) with your AWS credentials.
 - `aws configure list`
-- 
+
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
