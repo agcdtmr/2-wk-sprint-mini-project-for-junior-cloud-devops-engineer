@@ -20,7 +20,7 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - Set User Password using the console
 - Sign in using the created IAM User
 - [x] Configure necessary permissions on AWS account
-- [x] Install Terraform
+- [x] Install Terraform version arch -x86_64 using brew install terraform
 - [x] Set up GitLab CI/CD
 - [x] Initialize a new GitLab repository for the project
 - [x] Create a template for a .gitlab-ci.yml file that defines stages, jobs, and their configurations to deploy a simple API, make a GET request using Python's requests library, and includes testing as well as build and deploy stages.
