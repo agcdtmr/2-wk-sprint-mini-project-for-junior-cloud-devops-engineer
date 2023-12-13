@@ -22,9 +22,9 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] Configure necessary permissions on AWS account
 - [x] Install Terraform
 - `arch -x86_64 brew install terraform`
-- [x] Set up GitLab CI/CD
 - [x] Initialize a new GitLab repository for the project
-- [x] Create a template for a .gitlab-ci.yml file that defines stages, jobs, and their configurations to deploy a simple API, make a GET request using Python's requests library, and includes testing as well as build and deploy stages.
+- [x] Set up GitLab CI/CD
+- Created a template for a .gitlab-ci.yml file that defines stages, jobs, and their configurations to deploy a simple API, make a GET request using Python's requests library, and includes testing as well as build and deploy stages.
 - [x] [Connect your laptop to GitLab using SSH to use the project repo locally](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#connect-your-laptop-to-gitlab-using-ssh-youll-need-to-follow-these-general-steps)
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
