@@ -181,3 +181,28 @@ GitLab CI/CD Pipeline:
   - Terraform Applies Changes
   - Code Deployment to Lambda
 ```
+
+
+### Connect your laptop to GitLab using SSH, you'll need to follow these general steps:
+
+1. **Generate SSH Key Pair:**
+    - Open your terminal or command prompt on your laptop.
+    - Use the command `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"` to generate a new SSH key pair. Replace `"your_email@example.com"` with the email address associated with your GitLab account.
+    - It will prompt you to save the key in a specific file. Press Enter to save it in the default location (`~/.ssh/id_rsa`) or specify a different location.
+
+2. **Add SSH Key to SSH-Agent (Optional but recommended):**
+    - Start the SSH agent by running `eval "$(ssh-agent -s)"`.
+    - Add your SSH private key to the SSH agent with `ssh-add ~/.ssh/id_rsa`.
+
+3. **Add SSH Public Key to GitLab:**
+    - Copy your SSH public key to the clipboard. You can do this by running `cat ~/.ssh/id_rsa.pub` and copying the output.
+    - Log in to your GitLab account.
+    - Go to `Settings > SSH Keys` and paste your SSH public key into the "Key" field.
+    - Give the key a descriptive title and click on "Add key".
+
+4. **Test the SSH Connection:**
+    - In your terminal, run `ssh -T git@gitlab.com` (replace `git@gitlab.com` with your GitLab instance if using self-hosted GitLab).
+    - If prompted to continue connecting, type `yes`.
+    - If everything is set up correctly, you should see a message like `Welcome to GitLab, @your_username!`.
+
+Now, your laptop should be connected to GitLab via SSH, allowing you to push, pull, or interact with repositories using SSH authentication.
