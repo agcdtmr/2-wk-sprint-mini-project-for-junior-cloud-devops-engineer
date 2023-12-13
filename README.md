@@ -10,14 +10,14 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [ ] Draw the High-Level Architecture using Lucidchart or Draw.io
 - [x] Set up an AWS account
 - [x] Set Up Billing Alarms and Budgets
-      1. Create billing alarms to receive notifications when costs exceed predefined thresholds. This helps prevent unexpected expenses.
-      2. Set up budgets to monitor and control spending. It allows you to set spending limits and receive alerts when nearing or surpassing the defined budget.
+      - Create billing alarms to receive notifications when costs exceed predefined thresholds. This helps prevent unexpected expenses.
+      - Set up budgets to monitor and control spending. It allows you to set spending limits and receive alerts when nearing or surpassing the defined budget.
 - [x] Configure AWS Identity and Access Management (IAM)
-      1. Create IAM Users
-      2. Define IAM Groups
-      3. Assign Permissions
-      4. Secure Access Keys
-      5. Set User Password using the console
+      - Create IAM Users
+      - Define IAM Groups
+      - Assign Permissions
+      - Secure Access Keys
+      - Set User Password using the console
 - [ ] Configure necessary permissions on AWS account
 
 
