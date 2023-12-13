@@ -18,6 +18,7 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - Assign Permissions
 - Secure Access Keys
 - Set User Password using the console
+- Sign in using the created IAM User
 - [x] Configure necessary permissions on AWS account
 
 
