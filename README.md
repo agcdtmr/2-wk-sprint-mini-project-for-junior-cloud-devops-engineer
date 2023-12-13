@@ -18,7 +18,7 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - Assign Permissions
 - Secure Access Keys
 - Set User Password using the console
-- [ ] Configure necessary permissions on AWS account
+- [x] Configure necessary permissions on AWS account
 
 
 ### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
