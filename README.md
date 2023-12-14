@@ -31,7 +31,7 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - `aws configure list`
 
 
-### Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
+## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
 Working on a mini project within a week can be a great way to dive into cloud DevOps! Here's a plan for a one-week sprint involving AWS, Terraform, and GitLab CI/CD:
 
@@ -71,7 +71,7 @@ Working on a mini project within a week can be a great way to dive into cloud De
 - AWS Account: Ensure you have an AWS account and appropriate permissions.
 - GitLab Account: Have an account on GitLab.
 
-#### Tips for a Junior DevOps Engineer:
+### Tips for a Junior DevOps Engineer:
 
 - **Start Simple:** Begin with a basic project setup and gradually add complexity. Don't try to incorporate advanced features at the beginning.
 - **Documentation Is Key:** Keep detailed notes throughout the project. This will help you understand your own process and make troubleshooting easier.
@@ -81,7 +81,7 @@ Working on a mini project within a week can be a great way to dive into cloud De
 
 Remember, this plan is flexible and might need adjustments based on your progress and familiarity with the tools. Good luck with your project!
 
-## Understanding the project requirements and scope
+### Understanding the project requirements and scope
 
 Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
