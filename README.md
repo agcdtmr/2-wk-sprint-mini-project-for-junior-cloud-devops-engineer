@@ -35,6 +35,13 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 
 Working on a mini project within a week can be a great way to dive into cloud DevOps! Here's a plan for a one-week sprint involving AWS, Terraform, and GitLab CI/CD:
 
+### Prerequisites:
+- AWS Account: Set up an AWS account if you haven't already.
+- GitLab Account: Sign up for a GitLab account.
+- Install Terraform: Install Terraform on your local machine.
+- Configure AWS CLI: Set up AWS CLI on your local machine to authenticate with AWS.
+
+
 | **Day**     | **Tasks**                                                                                      |
 |-------------|------------------------------------------------------------------------------------------------|
 | **Day 1**   | **Planning and Setup**                                                                         |
@@ -66,10 +73,6 @@ Working on a mini project within a week can be a great way to dive into cloud De
 |             | - Present your project to colleagues, mentors, or peers                                          |
 |             | - Reflect on your learnings and note areas for improvement                                       |
 
-
-### Prerequisites:
-- AWS Account: Ensure you have an AWS account and appropriate permissions.
-- GitLab Account: Have an account on GitLab.
 
 ### Tips for a Junior DevOps Engineer:
 
