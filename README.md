@@ -82,7 +82,7 @@ Working on a mini project within a week can be a great way to dive into cloud De
 |             | - Reflect on your learnings and note areas for improvement                                       |
 
 
-### Tips for a Junior DevOps Engineer:
+## Tips for a Junior DevOps Engineer:
 
 - **Start Simple:** Begin with a basic project setup and gradually add complexity. Don't try to incorporate advanced features at the beginning.
 - **Documentation Is Key:** Keep detailed notes throughout the project. This will help you understand your own process and make troubleshooting easier.
@@ -92,7 +92,7 @@ Working on a mini project within a week can be a great way to dive into cloud De
 
 Remember, this plan is flexible and might need adjustments based on your progress and familiarity with the tools. Good luck with your project!
 
-### Understanding the project requirements and scope
+## Understanding the project requirements and scope
 
 Understanding the project requirements and scope means figuring out exactly **what you need to do** and **what your project will involve**.
 
@@ -176,7 +176,8 @@ Please adjust the versions and tools based on your project requirements or any s
    - GitLab CI/CD pipeline triggers.
    - Pipeline runs tests on the code.
    - Upon successful tests, Terraform applies changes to AWS infrastructure.
-   - Updated code gets deployed to Lambda via GitLab CI/CD.
+   - Docker containerization process wraps the updated code into containers.
+   - Deploy the containerized code to Lambda via GitLab CI/CD, incorporating Docker into the deployment process for Lambda.
 
 ### Textual Representation:
 
@@ -199,12 +200,13 @@ Terraform Configuration:
 GitLab CI/CD Pipeline:
 - Test Stage
 - Deployment Stage
-  - Terraform Applies Changes
-  - Code Deployment to Lambda
+   - Terraform Applies Changes
+   - Docker Containerization
+   - Code Deployment to Lambda
 ```
 
 
-### Connect your laptop to GitLab using SSH, you'll need to follow these general steps:
+## Connect your laptop to GitLab using SSH, you'll need to follow these general steps:
 
 1. **Generate SSH Key Pair:**
     - Open your terminal or command prompt on your laptop.
