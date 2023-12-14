@@ -23,13 +23,19 @@ In this one-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] Install Terraform
 - `arch -x86_64 brew install terraform`
 - [x] Initialize a new GitLab repository for the project
+- [x] [Connect laptop to GitLab using SSH to use the project repo locally](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#connect-your-laptop-to-gitlab-using-ssh-youll-need-to-follow-these-general-steps)
+- [x] Clone the repository to your local machine.
 - [x] Set up GitLab CI/CD
 - Created a template for a .gitlab-ci.yml file that defines stages, jobs, and their configurations to deploy a simple API, make a GET request using Python's requests library, and includes testing as well as build and deploy stages.
-- [x] [Connect laptop to GitLab using SSH to use the project repo locally](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#connect-your-laptop-to-gitlab-using-ssh-youll-need-to-follow-these-general-steps)
 - [x] Setup AWS Credentials:
 - Set up AWS credentials on your local machine. You can either use the AWS CLI aws configure command or set environment variables (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY) with your AWS credentials.
 - `aws configure list`
-
+- [x] Choose an API to use https://api.publicapis.org/entries
+- [x] Create a requirements.txt file
+- create requirements.txt file manually and add the dependencies
+- [x] Automate the installation
+- `pip install -r requirements.txt`
+- 
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
