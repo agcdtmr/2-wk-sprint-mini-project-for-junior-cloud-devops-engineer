@@ -56,17 +56,17 @@ Working on a mini project within a week can be a great way to dive into cloud De
 |             | - Draw the High-Level Architecture using Lucidchart or Draw.io                                 |
 |             | - Install Terraform and GitLab CI/CD tools                                                      |
 |             | - Initialize a new GitLab repository for the project                                            |
-| **Day 2**   | **Infrastructure Setup with Terraform**                                                        |
-|             | - Define infrastructure requirements (e.g., VPC, Subnets, Security Groups) using Terraform     |
-|             | - Create Terraform files for EC2 instance(s) or another service for your API deployment         |
-| **Day 3**   | **AWS Configuration and Deployment**                                                            |
-|             | - Apply Terraform configuration to create infrastructure on AWS                                 |
-|             | - Configure AWS services (like EC2 or any other service) for hosting your API                   |
-|             | - Test manually to ensure the deployed infrastructure is functional                             |
-| **Day 4**   | **Code API and Set Up GitLab CI/CD Pipeline**                                                  |
+| **Day 2**   | **Code API and Set Up GitLab CI/CD Pipeline**                                                  |
 |             | - Develop a simple API using a language/framework of your choice                                 |
 |             | - Create necessary scripts (build, test, deploy) for the CI/CD pipeline                         |
 |             | - Configure `.gitlab-ci.yml` for automated testing and deployment                                |
+| **Day 3**   | **Infrastructure Setup with Terraform**                                                        |
+|             | - Define infrastructure requirements (e.g., VPC, Subnets, Security Groups) using Terraform     |
+|             | - Create Terraform files for EC2 instance(s) or another service for your API deployment         |
+| **Day 4**   | **AWS Configuration and Deployment**                                                            |
+|             | - Apply Terraform configuration to create infrastructure on AWS                                 |
+|             | - Configure AWS services (like EC2 or any other service) for hosting your API                   |
+|             | - Test manually to ensure the deployed infrastructure is functional                             |
 | **Day 5**   | **CI/CD Testing and Refinement**                                                                |
 |             | - Push code changes to GitLab and observe the CI/CD pipeline in action                           |
 |             | - Debug and refine the pipeline as needed (handling errors, improving tests)                     |
