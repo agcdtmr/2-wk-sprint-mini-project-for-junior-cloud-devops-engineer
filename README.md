@@ -166,12 +166,18 @@ Please adjust the versions and tools based on your project requirements or any s
    - **Lambda & API Gateway:** Configures these services with necessary settings.
    - **IAM Roles:** Sets up roles for Lambda execution and other permissions.
 
-3. **GitLab CI/CD:**
+3. **Docker Integration:**
+
+Containerize the API using Docker for deployment.
+
+4. **GitLab CI/CD:**
    - **Pipeline Configuration:** Contains stages for testing and deployment.
    - **Testing Steps:** Runs automated tests on the code.
-   - **Deployment Steps:** Pushes the code changes to AWS services using Terraform.
+   - **Deployment Steps:**
+   - Builds Docker containers for the API.
+   - Pushes the containerized code changes to AWS services using Terraform.
 
-4. **Workflow Overview:**
+5. **Workflow Overview:**
    - Developer pushes code changes to GitLab repository.
    - GitLab CI/CD pipeline triggers.
    - Pipeline runs tests on the code.
