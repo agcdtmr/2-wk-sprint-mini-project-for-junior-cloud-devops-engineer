@@ -35,7 +35,7 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 - create requirements.txt file manually and add the dependencies
 - [x] Automate the installation
 - `pip install -r requirements.txt`
-- 
+- [x] [Brief guide on how to use the API](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#brief-guide-on-how-to-use-the-api)
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
