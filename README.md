@@ -1,6 +1,6 @@
-# One-week sprint project for a Junior Cloud DevOps Engineer
+# Two-week sprint project for a Junior Cloud DevOps Engineer
 
-In this one-week sprint project, our goal is to set up a basic API on Amazon Web Services (AWS) using Terraform for infrastructure provisioning and GitLab CI/CD for automated deployment. As a Junior Cloud DevOps Engineer, we’ll gain hands-on experience with essential tools and practices in the DevOps domain.
+In this two-week sprint project, our goal is to set up a basic API on Amazon Web Services (AWS) using Terraform for infrastructure provisioning and GitLab CI/CD for automated deployment. As a Junior Cloud DevOps Engineer, we’ll gain hands-on experience with essential tools and practices in the DevOps domain.
 
 ## Steps taken building this project
 - [x] [Project](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#project-deploying-a-simple-api-on-aws-using-terraform-with-gitlab-cicd)
@@ -124,7 +124,7 @@ Understanding the project requirements and scope means figuring out exactly **wh
 - Terraform: Network and server setup; GitLab CI/CD: Automation of testing and deployment
 
 **Constraints and Resources: Consider any limitations or resources available to you:**
-1. Time: One week to complete this project.
+1. Time: Two week to complete this project.
 2. Skills: What do you already know? What might you need to learn?
   - Knowledge in Python to build API
   - Learn how to use AWS Lambda and API Gateway
