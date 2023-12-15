@@ -235,3 +235,56 @@ GitLab CI/CD Pipeline:
     - If everything is set up correctly, you should see a message like `Welcome to GitLab, @your_username!`.
 
 Now, your laptop should be connected to GitLab via SSH, allowing you to push, pull, or interact with repositories using SSH authentication.
+
+
+## Brief guide on how to use the API:
+
+### Endpoints:
+
+#### 1. `/public_apis`:
+   - **Method:** GET
+   - **Purpose:** Retrieves a list of public APIs with optional filtering, searching, and sorting capabilities.
+   - **Parameters:**
+     - `category` (Optional): Filter APIs by category. Example: `/public_apis?category=Science`
+     - `https` (Optional): Filter APIs by HTTPS support. Example: `/public_apis?https=true`
+     - `search` (Optional): Search for specific APIs by keyword. Example: `/public_apis?search=weather`
+     - `sort_by` (Optional): Sort the results by a specific field. Example: `/public_apis?sort_by=API`
+
+#### 2. `/secure_public_apis`:
+   - **Method:** GET
+   - **Purpose:** Provides access to the `/public_apis` endpoint with authentication.
+   - **Authentication:** Basic Authentication (username and password required).
+
+### Usage Examples:
+
+1. **Fetching all public APIs:**
+   - Endpoint: `/public_apis`
+   - Example URL: `http://yourdomain.com/public_apis`
+   - Result: Retrieves a list of all available public APIs.
+
+2. **Filtering by category:**
+   - Endpoint: `/public_apis`
+   - Example URL: `http://yourdomain.com/public_apis?category=Science`
+   - Result: Retrieves a list of APIs categorized under 'Science'.
+
+3. **Filtering by HTTPS support:**
+   - Endpoint: `/public_apis`
+   - Example URL: `http://yourdomain.com/public_apis?https=true`
+   - Result: Retrieves a list of APIs that support HTTPS.
+
+4. **Searching for specific APIs:**
+   - Endpoint: `/public_apis`
+   - Example URL: `http://yourdomain.com/public_apis?search=weather`
+   - Result: Retrieves a list of APIs containing 'weather' in their names.
+
+5. **Sorting the results:**
+   - Endpoint: `/public_apis`
+   - Example URL: `http://yourdomain.com/public_apis?sort_by=API`
+   - Result: Retrieves a sorted list of APIs based on their names.
+
+6. **Accessing secure endpoint with authentication:**
+   - Endpoint: `/secure_public_apis`
+   - Example URL: `http://yourdomain.com/secure_public_apis`
+   - Authentication: Requires valid username and password via Basic Auth.
+
+Remember to replace `http://yourdomain.com` with the actual domain where the Flask app is hosted and adjust parameters as needed.
