@@ -59,12 +59,12 @@ Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizi
 |-------------|------------------------------------------------------------------------------------------------|
 | **Day 1**   | **Planning and Setup**                                                                         |
 |             | - [x] Understand the project requirements and scope                                                |
-|             | - Set up an AWS account and configure necessary permissions                                    |
+|             | - [x] Set up an AWS account and configure necessary permissions                                    |
 |             | - Visualize High-Level Architecture using diagramming tools. ex. Lucidchart or Draw.io          |
-|             | - Install Terraform and GitLab CI/CD tools                                                      |
-|             | - Initialize a new GitLab repository for the project                                            |
+|             | - [x] Install Terraform and GitLab CI/CD tools                                                      |
+|             | - [x] Initialize a new GitLab repository for the project                                            |
 | **Day 2**   | **Code API, API (Docker containerisation and Set Up GitLab CI/CD Pipeline**                      |
-|             | - Develop a simple API using a language/framework of your choice                                 |
+|             | - [x] Develop a simple API using a language/framework of your choice                                 |
 |             | - Plan Docker integration for API containerization.                                             |
 |             | - Identify necessary scripts for Docker image creation.                                         |
 |             | - Create necessary scripts (build, test, deploy) for the CI/CD pipeline                         |
@@ -306,6 +306,9 @@ Remember to replace `http://yourdomain.com` with the actual domain where the Fla
 
 
 ## Getting Started
+
+- Make sure you have Docker installed on your system.
+- Open a terminal, navigate to the directory containing the Dockerfile and your Flask application files.
 
 #### 1. Project Structure
 
