@@ -39,6 +39,9 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
+### Project Goal:
+Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizing Terraform for infrastructure setup and GitLab CI/CD for automated testing and deployment.
+
 ### Prerequisites:
 
 - AWS Account: Set up an AWS account if you haven't already.
@@ -53,25 +56,30 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 | **Day 1**   | **Planning and Setup**                                                                         |
 |             | - Understand the project requirements and scope                                                |
 |             | - Set up an AWS account and configure necessary permissions                                    |
-|             | - Draw the High-Level Architecture using Lucidchart or Draw.io                                 |
+|             | - Visualize High-Level Architecture using diagramming tools. ex. Lucidchart or Draw.io          |
 |             | - Install Terraform and GitLab CI/CD tools                                                      |
 |             | - Initialize a new GitLab repository for the project                                            |
-| **Day 2**   | **Code API and Set Up GitLab CI/CD Pipeline**                                                  |
+| **Day 2**   | **Code API, API (Docker containerisation and Set Up GitLab CI/CD Pipeline**                      |
 |             | - Develop a simple API using a language/framework of your choice                                 |
+|             | - Plan Docker integration for API containerization.                                             |
+|             | - Identify necessary scripts for Docker image creation.                                         |
 |             | - Create necessary scripts (build, test, deploy) for the CI/CD pipeline                         |
 |             | - Configure `.gitlab-ci.yml` for automated testing and deployment                                |
 | **Day 3**   | **Infrastructure Setup with Terraform**                                                        |
 |             | - Define infrastructure requirements (e.g., VPC, Subnets, Security Groups) using Terraform     |
-|             | - Create Terraform files for EC2 instance(s) or another service for your API deployment         |
-| **Day 4**   | **AWS Configuration and Deployment**                                                            |
+|             | - Create Terraform files for AWS service configurations.         |
+| **Day 4**   | **AWS Configuration and Deployment and Docker Implementation**                             |
+|             | - Start Docker implementation for API containerization.                                          |
 |             | - Apply Terraform configuration to create infrastructure on AWS                                 |
 |             | - Configure AWS services (like EC2 or any other service) for hosting your API                   |
 |             | - Test manually to ensure the deployed infrastructure is functional                             |
 | **Day 5**   | **CI/CD Testing and Refinement**                                                                |
 |             | - Push code changes to GitLab and observe the CI/CD pipeline in action                           |
 |             | - Debug and refine the pipeline as needed (handling errors, improving tests)                     |
+|             | - Configure GitLab CI/CD with testing stages.                                                      |
+|             | - Test Docker containerization and basic API functionality.                                       |
 | **Day 6**   | **Documentation and Finalization**                                                              |
-|             | - Document the project: Infrastructure setup, CI/CD workflow, and any troubleshooting steps       |
+|             | - Document the project: Docker or Infrastructure setup, CI/CD workflow, and any troubleshooting steps       |
 |             | - Review the project to ensure completeness and functionality                                   |
 |             | - Prepare a demo or presentation to showcase your project                                        |
 | **Day 7**   | **Presentation and Wrap Up**                                                                   |
@@ -112,9 +120,12 @@ Understanding the project requirements and scope means figuring out exactly **wh
   - Set up VPC, subnets, security groups, Lambda function configuration, API Gateway, and IAM roles using Terraform.
 5. What steps are required to automate testing and deployment using GitLab CI/CD? (e.g., writing scripts, setting up pipelines)
   - Write test scripts for API endpoints, set up GitLab pipelines for automated testing (unit, integration) and deployment to AWS.
+6. How will Docker be integrated for API containerization?
+   - Use Docker to containerize the API for simplified deployment.
 
 **Scope: Define the boundaries of your project. For example:**
 1. Which parts of AWS will you use? (Avoid making it too complex at first)
+   - AWS Components: Focus on using AWS Lambda and API Gateway for initial setup.
   - Utilize AWS Lambda and API Gateway
 2. What level of complexity will your API have? (Start with a simple one and maybe add features later)
   - Begin with a simple API 
@@ -141,6 +152,7 @@ Understanding the project requirements and scope means figuring out exactly **wh
 | AWS IAM             | -                                    | Managing access to AWS services                   |
 | AWS VPC             | -                                    | Creating virtual networks                         |
 | AWS EC2 (optional)  | -                                    | Alternative for hosting the API, if not using Lambda |
+| Docker              | -                                    |                                                      |
 
 These tools and services play specific roles in the project:
 
