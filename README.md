@@ -35,7 +35,11 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 - create requirements.txt file manually and add the dependencies
 - [x] Automate the installation
 - `pip install -r requirements.txt`
-- [x] [Brief guide on how to use the API](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#brief-guide-on-how-to-use-the-api)
+- [x] Brief guide on [how to use the API](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#brief-guide-on-how-to-use-the-api)
+- [x] Create a Dockerfile to containerize API using Docker, we'll need to create a Dockerfile to specifies how to build the Docker image for the application.
+- [ ] Write Getting Started
+
+
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
@@ -298,3 +302,89 @@ Now, your laptop should be connected to GitLab via SSH, allowing you to push, pu
    - Authentication: Requires valid username and password via Basic Auth.
 
 Remember to replace `http://yourdomain.com` with the actual domain where the Flask app is hosted and adjust parameters as needed.
+
+
+
+## Certainly! Writing clear documentation is crucial for understanding, maintaining, and onboarding others to your project. Here's a structured template for your Flask API Dockerization documentation:
+
+---
+
+## [Project Name] - Flask API Dockerization Documentation
+
+### Introduction
+
+This documentation provides a guide for containerizing a Flask API using Docker. The containerization process encapsulates the Flask application into a Docker container, facilitating easy deployment and scalability across different environments.
+
+### Prerequisites
+
+- Basic understanding of Docker and containerization concepts.
+- Access to a terminal or command line interface.
+- Installed Docker on the local machine.
+
+### Getting Started
+
+#### 1. Project Structure
+
+This project has the following structure:
+
+```
+project_directory/
+│
+├── app.py
+├── requirements.txt
+├── Dockerfile
+└── (other_files_and_folders)
+```
+
+- `app.py`: Flask application code.
+- `requirements.txt`: File containing Python dependencies.
+- `Dockerfile`: Configuration file for building the Docker image.
+
+#### 2. Dockerfile Configuration
+
+The `Dockerfile` should contain the following instructions:
+
+```Dockerfile
+# Use an official Python runtime as a base image
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Install any needed dependencies specified in requirements.txt
+RUN pip install -r requirements.txt
+
+# Set environment variables, if needed
+# ENV VARIABLE_NAME value
+
+# Expose the port your app runs on
+EXPOSE 5000
+
+# Define the command to run your application
+CMD ["python", "app.py"]
+```
+
+### Building the Docker Image
+
+1. Open a terminal and navigate to the project directory containing the `Dockerfile`.
+2. Run the following command to build the Docker image:
+
+   ```bash
+   docker build -t your_image_name:tag .
+   ```
+
+   Replace `your_image_name:tag` with your desired image name and tag.
+
+### Running the Docker Container
+
+Once the image is built successfully, start a container from it:
+
+```bash
+docker run -p 5000:5000 your_image_name:tag
+```
+
+Access the API at `http://localhost:5000`.
+
