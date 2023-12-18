@@ -58,7 +58,7 @@ Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizi
 | **Day**     | **Tasks**                                                                                      |
 |-------------|------------------------------------------------------------------------------------------------|
 | **Day 1**   | **Planning and Setup**                                                                         |
-|             | - Understand the project requirements and scope                                                |
+|             | - [x] Understand the project requirements and scope                                                |
 |             | - Set up an AWS account and configure necessary permissions                                    |
 |             | - Visualize High-Level Architecture using diagramming tools. ex. Lucidchart or Draw.io          |
 |             | - Install Terraform and GitLab CI/CD tools                                                      |
