@@ -305,23 +305,7 @@ Remember to replace `http://yourdomain.com` with the actual domain where the Fla
 
 
 
-## Certainly! Writing clear documentation is crucial for understanding, maintaining, and onboarding others to your project. Here's a structured template for your Flask API Dockerization documentation:
-
----
-
-## [Project Name] - Flask API Dockerization Documentation
-
-### Introduction
-
-This documentation provides a guide for containerizing a Flask API using Docker. The containerization process encapsulates the Flask application into a Docker container, facilitating easy deployment and scalability across different environments.
-
-### Prerequisites
-
-- Basic understanding of Docker and containerization concepts.
-- Access to a terminal or command line interface.
-- Installed Docker on the local machine.
-
-### Getting Started
+## Getting Started
 
 #### 1. Project Structure
 
