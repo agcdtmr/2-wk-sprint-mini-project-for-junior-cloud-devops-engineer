@@ -37,7 +37,7 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 - `pip install -r requirements.txt`
 - [x] Brief guide on [how to use the API](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#brief-guide-on-how-to-use-the-api)
 - [x] Create a Dockerfile to containerize API using Docker, we'll need to create a Dockerfile to specifies how to build the Docker image for the application.
-- [ ] Write Getting Started
+- [ ] Write [Getting Started](https://github.com/agcdtmr/2-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#getting-started)
 
 
 
