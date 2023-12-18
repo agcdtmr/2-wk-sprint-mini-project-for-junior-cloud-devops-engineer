@@ -38,7 +38,10 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 - [x] Brief guide on [how to use the API](https://github.com/agcdtmr/1-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#brief-guide-on-how-to-use-the-api)
 - [x] Create a Dockerfile to containerize API using Docker, we'll need to create a Dockerfile to specifies how to build the Docker image for the application.
 - [ ] Write [Getting Started](https://github.com/agcdtmr/2-wk-sprint-mini-project-for-junior-cloud-devops-engineer/blob/main/README.md#getting-started)
-
+- [x] Identify necessary scripts for Docker image creation.
+- Dockerfile: This file contains instructions to build the Docker image. It outlines the steps needed to set up the environment, install dependencies, and configure the container. The example Dockerfile provided earlier is crucial for defining the image's configuration.
+- Requirements File (requirements.txt): For Python applications, this file lists all the Python dependencies required for your application to run. It allows Docker to install these dependencies within the container during the image build process. The requirements.txt file example was provided earlier in the Flask API containerization example.
+- Application Code: Ensure all the necessary application files, including your Flask application (app.py), are present in the directory where you build the Docker image. These files will be copied into the Docker container using instructions within the Dockerfile.
 
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
@@ -53,6 +56,8 @@ Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizi
 - Install Terraform: Install Terraform on your local machine.
 - Configure AWS CLI: Set up AWS CLI on your local machine to authenticate with AWS.
 - Docker: Transform the API into a Docker container for deployment.
+
+
 
 
 | **Day**     | **Tasks**                                                                                      |
