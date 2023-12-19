@@ -72,6 +72,7 @@ Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizi
 |             | - [x] Initialize a new GitLab repository for the project                                            |
 | **Day 2**   | **Code API, API (Docker containerisation and Set Up GitLab CI/CD Pipeline**                      |
 |             | - [x] Develop a simple API using a language/framework of your choice                                 |
+|             | - Write unit test for the API                                                                     |
 |             | - [x] Plan Docker integration for API containerization.                                             |
 |             | - [x] Identify necessary scripts for Docker image creation.                                         |
 |             | - [x] Create necessary scripts (build, test, deploy) for the CI/CD pipeline                         |
@@ -79,7 +80,7 @@ Deploy a basic API using Docker containers on Amazon Web Services (AWS), utilizi
 | **Day 3**   | **Infrastructure Setup with Terraform**                                                        |
 |             | - Define infrastructure requirements (e.g., VPC, Subnets, Security Groups) using Terraform     |
 |             | - Create Terraform files for AWS service configurations.         |
-| **Day 4**   | **AWS Configuration and Deployment and Docker Implementation**                             |
+| **Day 4**   | **AWS Configuration and Deployment and Docker Implementation**                                      |
 |             | - Start Docker implementation for API containerization.                                          |
 |             | - Apply Terraform configuration to create infrastructure on AWS                                 |
 |             | - Configure AWS services (like EC2 or any other service) for hosting your API                   |
