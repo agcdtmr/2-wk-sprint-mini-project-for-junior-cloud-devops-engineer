@@ -43,7 +43,8 @@ In this two-week sprint project, our goal is to set up a basic API on Amazon Web
 - Dockerfile: This file contains instructions to build the Docker image. It outlines the steps needed to set up the environment, install dependencies, and configure the container. The example Dockerfile provided earlier is crucial for defining the image's configuration.
 - Requirements File (requirements.txt): For Python applications, this file lists all the Python dependencies required for your application to run. It allows Docker to install these dependencies within the container during the image build process. The requirements.txt file example was provided earlier in the Flask API containerization example.
 - Application Code: Ensure all the necessary application files, including your Flask application (app.py), are present in the directory where you build the Docker image. These files will be copied into the Docker container using instructions within the Dockerfile.
-
+- [x] Set up GitLab CI/CD pipeline for build, test, and deployment
+- Configured stages for build, test, validation, and deployment to development and production environments using Docker, AWS, and Terraform. Included necessary installations, testing procedures, and deployment steps. Outputs development and production URLs after successful deployment.
 
 ## Project: Deploying a Simple API on AWS Using Terraform with GitLab CI/CD
 
