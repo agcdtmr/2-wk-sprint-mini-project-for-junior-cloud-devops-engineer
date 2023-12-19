@@ -1,0 +1,74 @@
+stages:
+  - build
+  - test
+  - validate
+  - deploy_dev
+  - deploy_prod
+
+
+variables:
+  AWS_DEFAULT_REGION: "aws_region"
+  AWS_ACCESS_KEY_ID: "$AWS_ACCESS_KEY_ID" # Add these to your GitLab CI/CD variables
+  AWS_SECRET_ACCESS_KEY: "$AWS_SECRET_ACCESS_KEY" # Add these to your GitLab CI/CD variables
+  DEVELOPMENT_URL: ""
+  PRODUCTION_URL: ""
+
+before_script:
+  - apt-get update -qy
+  - apt-get install -y python3-pip docker.io
+  - pip3 install awscli
+  - curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+  - apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  - apt-get update && apt-get install terraform
+
+docker-build:
+  stage: build
+  script:
+    - docker build -t python_api .
+    - echo "Building the API..."
+    - # Add more commands as needed
+
+  
+test_api:
+  stage: test
+  script:
+    - docker run python_api python -m unittest discover -s tests -p '*_test.py'
+    - # - docker run your_image_name python -m unittest discover -s tests -p '*_test.py'
+    - # Commands to run tests for your API
+
+
+validate:
+  stage: validate
+  script:
+    - cd terraform # Adjust for your development environment directory
+    - terraform init
+    - terraform validate
+  only:
+    - development
+
+
+deploy_dev:
+  stage: deploy_dev
+  script:
+    - cd terraform #terraform_dev
+    - terraform init
+    - terraform plan -out=terraform_dev.tfplan
+    - terraform apply terraform_dev.tfplan
+    - export DEVELOPMENT_URL=$(terraform output api_endpoint) # Assuming Terraform outputs the API endpoint
+  only:
+    - development
+
+deploy_prod:
+  stage: deploy_prod
+  script:
+    - cd terraform # Adjust for your production environment directory terraform_prod
+    - terraform init
+    - terraform plan -out=terraform_prod.tfplan
+    - terraform apply terraform_prod.tfplan
+    - export PRODUCTION_URL=$(terraform output api_endpoint) # Assuming Terraform outputs the API endpoint
+  only:
+    - main
+
+after_script:
+  - echo "Development Environment URL: $DEVELOPMENT_URL"
+  - echo "Production Environment URL: $PRODUCTION_URL"
